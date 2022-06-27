@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="container mx-auto">
+       <h1 class="text-center text-3xl text-indigo-400 py-12">JSON Server</h1>
+
+       <!-- table -->
+       <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+                <tr>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking wider">Name</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking wider">Password</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking wider">Role</th>
+                </tr>
+            </thead>
+
+            <tbody class="bg-white divide-y divide-gray-200" id="tBody">
+                <tr>
+                    <!-- <td class="px-6 py-4 whitespace-nowrap">
+                        <div class="flex item-center">
+                            <div class="flex-shrink-0 h-10 w-10">
+                                <img src="01.jpg" class="w-10 h-10 rounded-full" alt="">
+                            </div>
+
+                            <div class="ml-4">
+                                <div class="text-sm font-medium text-gray-900">
+                                    Jhon Smith
+                                </div>
+                                <div class="text-sm text-gray-500 ">
+                                    jhon123@gmail.com
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                            Active
+                        </span>
+                    </td>
+
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="text-sm text-gray-500">
+                            Admin
+                        </span>
+                    </td> -->
+
+                </tr>
+            </tbody>
+       </table>
+    </div>
+
+
+    <!-- main js -->
+    <script src="main.js"></script>
+</body>
+</html>
